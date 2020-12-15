@@ -24,3 +24,14 @@ These commands will download the code, all the necessary Go libraries and build 
     > .\wosgetter.exe -h
     Usage of wosgetter.exe:
       -chrome string
+            Path to Chrome(ium) binary (default "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe")
+      -driver string
+            Path to Chromedriver binary (default "./chromedriver")
+      -filen int
+            File number to start with (default 1)
+      -from int
+            What record to start from (default 1)
+      -o string
+            Where to save the reports (default ".")
+      -to int
+            What record to end with
