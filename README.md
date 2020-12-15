@@ -13,3 +13,8 @@ This program depends on several things that are not in this repository:
 ## Building
 
     git clone https://github.com/x0wllaar/WoSgetter
+    cd WoSgetter
+    go get .
+    go build -o wosgetter.exe .
+
+These commands will download the code, all the necessary Go libraries and build the executable. You will still have to download Chrome and the Chromedriver binary.
