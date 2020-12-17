@@ -35,3 +35,13 @@ These commands will download the code, all the necessary Go libraries and build 
             Where to save the reports (default ".")
       -to int
             What record to end with
+
+## How to use
+
+1. Install Google Chrome (or Chromium) and download the Chromedriver binary. 
+2. Start the program with the relevant command line flags. 
+3. A Chrome window will open.
+4. In this window, navigate to the WoS page with the relevant results
+5. In the command line window, press Enter to start the download
+
+### Continuing interrupted downloads
