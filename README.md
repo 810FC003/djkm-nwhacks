@@ -45,3 +45,7 @@ These commands will download the code, all the necessary Go libraries and build 
 5. In the command line window, press Enter to start the download
 
 ### Continuing interrupted downloads
+
+The steps are exactly the same, but you will need to use the `filen`, `from` and `to` command line flags
+
+# ❗❗ Instructional videos will be posted later ❗❗
