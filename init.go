@@ -16,3 +16,9 @@ const defaultChromeBinary = `C:\Program Files (x86)\Google\Chrome\Application\ch
 const defaultStart = 1
 const defaultEnd = 0
 const defaultStartIter = 1
+
+var argDriver string
+var argDownloadDir string
+var chromeBinary string
+var argStart int
+var argEnd int
