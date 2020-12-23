@@ -22,3 +22,11 @@ var argDownloadDir string
 var chromeBinary string
 var argStart int
 var argEnd int
+var argStartIter int
+
+var tempDir string
+
+func init() {
+	flag.StringVar(&argDriver, "driver", defaultChromedriver, "Path to Chromedriver binary")
+	flag.StringVar(&argDownloadDir, "o", defaultDownDir, "Where to save the reports")
+	flag.StringVar(&chromeBinary, "chrome", defaultChromeBinary, "Path to Chrome(ium) binary")
