@@ -38,3 +38,8 @@ func init() {
 	ltempDir, err := ioutil.TempDir(os.TempDir(), "wosDownloader")
 	if err != nil {
 		logrus.Panicln(err)
+	}
+	tempDir = ltempDir
+
+	logrusConf()
+}
