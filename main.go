@@ -7,4 +7,4 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tebeka/sel
+	"github.com/tebeka/selenium/chr
