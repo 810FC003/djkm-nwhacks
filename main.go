@@ -9,4 +9,4 @@ import (
 
 	"github.com/tebeka/selenium/chrome"
 
-	"github.com/sirupsen
+	"github.com/sirupsen/logr
