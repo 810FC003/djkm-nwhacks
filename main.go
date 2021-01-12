@@ -10,4 +10,6 @@ import (
 	"github.com/tebeka/selenium/chrome"
 
 	"github.com/sirupsen/logrus"
-	"github.com/tebeka/selenium
+	"github.com/tebeka/selenium"
+)
+
