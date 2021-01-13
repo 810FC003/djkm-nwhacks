@@ -14,4 +14,4 @@ import (
 )
 
 func main() {
-	logrus.Infoln("Star
+	logrus.Infoln("Starting Chro
