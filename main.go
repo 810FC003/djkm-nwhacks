@@ -14,4 +14,4 @@ import (
 )
 
 func main() {
-	logrus.In
+	logrus.Infoln("Star
