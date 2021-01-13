@@ -13,4 +13,5 @@ import (
 	"github.com/tebeka/selenium"
 )
 
-func mai
+func main() {
+	logrus.In
