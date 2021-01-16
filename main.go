@@ -15,4 +15,4 @@ import (
 
 func main() {
 	logrus.Infoln("Starting Chromedriver")
-	s,
+	s, er
