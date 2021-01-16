@@ -15,4 +15,4 @@ import (
 
 func main() {
 	logrus.Infoln("Starting Chromedriver")
-	s, er
+	s, err := seleni
