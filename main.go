@@ -16,4 +16,4 @@ import (
 func main() {
 	logrus.Infoln("Starting Chromedriver")
 	s, err := selenium.NewChromeDriverService(argDriver, driverPort)
-	if err 
+	if err != nil 
