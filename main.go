@@ -20,3 +20,5 @@ func main() {
 		logrus.Panicln(err)
 	}
 	defer s.Stop()
+
+	logru
