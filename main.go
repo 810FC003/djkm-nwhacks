@@ -19,4 +19,4 @@ func main() {
 	if err != nil {
 		logrus.Panicln(err)
 	}
-	def
+	defer s.Stop()
