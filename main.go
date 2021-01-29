@@ -21,4 +21,4 @@ func main() {
 	}
 	defer s.Stop()
 
-	logru
+	logrus.Infof("
