@@ -21,4 +21,4 @@ func main() {
 	}
 	defer s.Stop()
 
-	logrus.Infof("Temporary d
+	logrus.Infof("Temporary download direct
