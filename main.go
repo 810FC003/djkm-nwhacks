@@ -21,4 +21,4 @@ func main() {
 	}
 	defer s.Stop()
 
-	logrus.Infof("
+	logrus.Infof("Temporary d
