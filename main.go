@@ -21,4 +21,6 @@ func main() {
 	}
 	defer s.Stop()
 
-	logrus.Infof("Temporary download directory %s", te
+	logrus.Infof("Temporary download directory %s", tempDir)
+
+	log
