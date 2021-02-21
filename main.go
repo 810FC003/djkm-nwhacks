@@ -23,4 +23,4 @@ func main() {
 
 	logrus.Infof("Temporary download directory %s", tempDir)
 
-	logrus.Infoln("Starti
+	logrus.Infoln("Starting Chrome
