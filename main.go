@@ -24,4 +24,4 @@ func main() {
 	logrus.Infof("Temporary download directory %s", tempDir)
 
 	logrus.Infoln("Starting Chrome")
-	c
+	caps := selen
