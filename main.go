@@ -24,4 +24,4 @@ func main() {
 	logrus.Infof("Temporary download directory %s", tempDir)
 
 	logrus.Infoln("Starting Chrome")
-	caps := selenium.Capabilities{"browserName"
+	caps := selenium.Capabilities{"browserName": "chrome"}
