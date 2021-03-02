@@ -27,4 +27,4 @@ func main() {
 	caps := selenium.Capabilities{"browserName": "chrome"}
 	caps.AddChrome(chrome.Capabilities{
 		Path: chromeBinary,
-		Prefs:
+		Prefs: map[str
