@@ -26,4 +26,5 @@ func main() {
 	logrus.Infoln("Starting Chrome")
 	caps := selenium.Capabilities{"browserName": "chrome"}
 	caps.AddChrome(chrome.Capabilities{
-		Path: chromeBinar
+		Path: chromeBinary,
+		Prefs:
