@@ -28,4 +28,4 @@ func main() {
 	caps.AddChrome(chrome.Capabilities{
 		Path: chromeBinary,
 		Prefs: map[string]interface{}{
-			"profile.default_con
+			"profile.default_content_settin
