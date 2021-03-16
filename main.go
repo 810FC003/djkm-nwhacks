@@ -29,4 +29,4 @@ func main() {
 		Path: chromeBinary,
 		Prefs: map[string]interface{}{
 			"profile.default_content_settings.popups": 0,
-			"download.default_directory":       
+			"download.default_directory":              te
