@@ -30,4 +30,5 @@ func main() {
 		Prefs: map[string]interface{}{
 			"profile.default_content_settings.popups": 0,
 			"download.default_directory":              tempDir,
-			"safebrowsing.enabled":                    tru
+			"safebrowsing.enabled":                    true,
+			"dow
