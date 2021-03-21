@@ -31,4 +31,4 @@ func main() {
 			"profile.default_content_settings.popups": 0,
 			"download.default_directory":              tempDir,
 			"safebrowsing.enabled":                    true,
-			"download.prompt_for_down
+			"download.prompt_for_download":          
