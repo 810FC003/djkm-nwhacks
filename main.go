@@ -33,4 +33,5 @@ func main() {
 			"safebrowsing.enabled":                    true,
 			"download.prompt_for_download":            false,
 		},
-		Args: 
+		Args: []string{
+	
