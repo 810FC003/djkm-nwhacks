@@ -32,4 +32,5 @@ func main() {
 			"download.default_directory":              tempDir,
 			"safebrowsing.enabled":                    true,
 			"download.prompt_for_download":            false,
-		
+		},
+		Ar
