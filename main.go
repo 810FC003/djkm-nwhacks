@@ -34,4 +34,4 @@ func main() {
 			"download.prompt_for_download":            false,
 		},
 		Args: []string{
-	
+			"safebrowsing-disa
