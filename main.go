@@ -35,4 +35,4 @@ func main() {
 		},
 		Args: []string{
 			"safebrowsing-disable-download-protection",
-			"wi
+			"window-size=1
