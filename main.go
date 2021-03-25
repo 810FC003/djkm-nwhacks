@@ -34,4 +34,5 @@ func main() {
 			"download.prompt_for_download":            false,
 		},
 		Args: []string{
-			"safebrowsing-disable-download-protectio
+			"safebrowsing-disable-download-protection",
+			"wi
