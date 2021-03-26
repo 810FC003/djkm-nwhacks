@@ -36,3 +36,7 @@ func main() {
 		Args: []string{
 			"safebrowsing-disable-download-protection",
 			"window-size=1280,720",
+		},
+	})
+
+	defer o
