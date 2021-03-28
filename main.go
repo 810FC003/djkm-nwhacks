@@ -39,4 +39,4 @@ func main() {
 		},
 	})
 
-	defer o
+	defer os.Remove
