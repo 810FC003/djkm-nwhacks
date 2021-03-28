@@ -39,4 +39,5 @@ func main() {
 		},
 	})
 
-	defer os.RemoveAll(te
+	defer os.RemoveAll(tempDir)
+	wd, 
