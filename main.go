@@ -40,4 +40,4 @@ func main() {
 	})
 
 	defer os.RemoveAll(tempDir)
-	wd, 
+	wd, err := s
