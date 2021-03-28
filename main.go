@@ -39,4 +39,4 @@ func main() {
 		},
 	})
 
-	defer os.Remove
+	defer os.RemoveAll(te
