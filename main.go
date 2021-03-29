@@ -40,4 +40,4 @@ func main() {
 	})
 
 	defer os.RemoveAll(tempDir)
-	wd, err := s
+	wd, err := seleni
