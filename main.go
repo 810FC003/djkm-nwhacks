@@ -40,4 +40,4 @@ func main() {
 	})
 
 	defer os.RemoveAll(tempDir)
-	wd, err := selenium.New
+	wd, err := selenium.NewRemote(c
