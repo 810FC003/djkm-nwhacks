@@ -40,4 +40,4 @@ func main() {
 	})
 
 	defer os.RemoveAll(tempDir)
-	wd, err := selenium.NewRemote(caps, fmt.Sprintf("http://localhost:%
+	wd, err := selenium.NewRemote(caps, fmt.Sprintf("http://localhost:%d/wd/hu
