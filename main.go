@@ -42,4 +42,6 @@ func main() {
 	defer os.RemoveAll(tempDir)
 	wd, err := selenium.NewRemote(caps, fmt.Sprintf("http://localhost:%d/wd/hub", driverPort))
 	if err != nil {
-		logrus.Panicln(e
+		logrus.Panicln(err)
+	}
+	defer
