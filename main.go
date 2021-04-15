@@ -44,4 +44,4 @@ func main() {
 	if err != nil {
 		logrus.Panicln(err)
 	}
-	defer
+	defer wd.Quit()
