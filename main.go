@@ -45,3 +45,5 @@ func main() {
 		logrus.Panicln(err)
 	}
 	defer wd.Quit()
+
+	logrus
