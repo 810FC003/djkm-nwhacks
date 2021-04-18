@@ -46,4 +46,4 @@ func main() {
 	}
 	defer wd.Quit()
 
-	logrus
+	logrus.Infoln(
