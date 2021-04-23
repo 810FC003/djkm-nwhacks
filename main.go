@@ -47,4 +47,4 @@ func main() {
 	defer wd.Quit()
 
 	logrus.Infoln("Chrome is running!")
-	logrus.Infoln("Go to the
+	logrus.Infoln("Go to the results pa
