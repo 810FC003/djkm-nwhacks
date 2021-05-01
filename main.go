@@ -47,4 +47,5 @@ func main() {
 	defer wd.Quit()
 
 	logrus.Infoln("Chrome is running!")
-	logrus.Infoln("Go to the results page, wait till it fully loads, then press Enter to export re
+	logrus.Infoln("Go to the results page, wait till it fully loads, then press Enter to export results")
+	fmt
