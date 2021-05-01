@@ -48,4 +48,6 @@ func main() {
 
 	logrus.Infoln("Chrome is running!")
 	logrus.Infoln("Go to the results page, wait till it fully loads, then press Enter to export results")
-	fmt
+	fmt.Scanln()
+
+	res
