@@ -51,4 +51,4 @@ func main() {
 	fmt.Scanln()
 
 	resultCountE, err := wd.FindElement(selenium.ByXPATH, `//*[@id="hitCount.top"]`)
-	if
+	if err != nil 
