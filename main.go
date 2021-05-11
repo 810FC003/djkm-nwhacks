@@ -51,4 +51,5 @@ func main() {
 	fmt.Scanln()
 
 	resultCountE, err := wd.FindElement(selenium.ByXPATH, `//*[@id="hitCount.top"]`)
-	if err != nil 
+	if err != nil {
+		logrus
