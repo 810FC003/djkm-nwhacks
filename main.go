@@ -52,4 +52,4 @@ func main() {
 
 	resultCountE, err := wd.FindElement(selenium.ByXPATH, `//*[@id="hitCount.top"]`)
 	if err != nil {
-		logrus.Panicf("Cannot ge
+		logrus.Panicf("Cannot get result
