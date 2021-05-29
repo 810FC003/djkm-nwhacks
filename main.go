@@ -56,4 +56,4 @@ func main() {
 	}
 
 	resultCountText, err := resultCountE.Text()
-	
+	if err !
