@@ -57,4 +57,4 @@ func main() {
 
 	resultCountText, err := resultCountE.Text()
 	if err != nil {
-		logr
+		logrus.Panicf
