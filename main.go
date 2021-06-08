@@ -57,4 +57,6 @@ func main() {
 
 	resultCountText, err := resultCountE.Text()
 	if err != nil {
-		logrus.Panicf("Cannot get result count, error %v"
+		logrus.Panicf("Cannot get result count, error %v", err)
+	}
+	
