@@ -59,4 +59,4 @@ func main() {
 	if err != nil {
 		logrus.Panicf("Cannot get result count, error %v", err)
 	}
-	resultCountTextGood := strings.Replace
+	resultCountTextGood := strings.ReplaceAll(resultCoun
