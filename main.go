@@ -62,4 +62,4 @@ func main() {
 	resultCountTextGood := strings.ReplaceAll(resultCountText, ",", "")
 
 	var resultCountInt int
-	_, e
+	_, err = f
