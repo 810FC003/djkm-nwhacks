@@ -62,4 +62,4 @@ func main() {
 	resultCountTextGood := strings.ReplaceAll(resultCountText, ",", "")
 
 	var resultCountInt int
-	_, err = fmt.Sscanf(resul
+	_, err = fmt.Sscanf(resultCountTex
