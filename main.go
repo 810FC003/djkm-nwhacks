@@ -64,4 +64,4 @@ func main() {
 	var resultCountInt int
 	_, err = fmt.Sscanf(resultCountTextGood, "%d", &resultCountInt)
 	if err != nil {
-		logrus.Panicf("Cannot get result count, 
+		logrus.Panicf("Cannot get result count, error %v", er
