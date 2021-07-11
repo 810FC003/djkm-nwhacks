@@ -67,4 +67,4 @@ func main() {
 		logrus.Panicf("Cannot get result count, error %v", err)
 	}
 
-	
+	logrus.In
