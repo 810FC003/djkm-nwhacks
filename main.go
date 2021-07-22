@@ -68,4 +68,4 @@ func main() {
 	}
 
 	logrus.Infof("Found %d results", resultCountInt)
-	logrus.Inf
+	logrus.Infof("Sta
