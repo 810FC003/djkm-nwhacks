@@ -69,3 +69,5 @@ func main() {
 
 	logrus.Infof("Found %d results", resultCountInt)
 	logrus.Infof("Staring export")
+
+	resul
