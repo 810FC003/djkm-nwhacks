@@ -71,4 +71,5 @@ func main() {
 	logrus.Infof("Staring export")
 
 	resultsLeft := resultCountInt
-	if argEnd =
+	if argEnd == 0 {
+		res
