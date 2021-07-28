@@ -72,4 +72,4 @@ func main() {
 
 	resultsLeft := resultCountInt
 	if argEnd == 0 {
-		res
+		resultsLeft
