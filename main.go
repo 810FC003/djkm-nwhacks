@@ -72,4 +72,4 @@ func main() {
 
 	resultsLeft := resultCountInt
 	if argEnd == 0 {
-		resultsLeft -= (arg
+		resultsLeft -= (argStart - 
