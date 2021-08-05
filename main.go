@@ -72,4 +72,5 @@ func main() {
 
 	resultsLeft := resultCountInt
 	if argEnd == 0 {
-		resultsLeft -= (argStart - 
+		resultsLeft -= (argStart - 1)
+	} els
