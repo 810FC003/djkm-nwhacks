@@ -74,4 +74,4 @@ func main() {
 	if argEnd == 0 {
 		resultsLeft -= (argStart - 1)
 	} else {
-		resultsLeft = argEnd - a
+		resultsLeft = argEnd - argStart + 1
