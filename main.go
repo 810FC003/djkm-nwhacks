@@ -75,3 +75,6 @@ func main() {
 		resultsLeft -= (argStart - 1)
 	} else {
 		resultsLeft = argEnd - argStart + 1
+	}
+
+	iter
