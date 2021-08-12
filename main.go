@@ -77,4 +77,4 @@ func main() {
 		resultsLeft = argEnd - argStart + 1
 	}
 
-	iterationN := ar
+	iterationN := argStartIt
