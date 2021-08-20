@@ -78,4 +78,4 @@ func main() {
 	}
 
 	iterationN := argStartIter
-	lastDownloaded := argSt
+	lastDownloaded := argStart - 1
