@@ -79,3 +79,5 @@ func main() {
 
 	iterationN := argStartIter
 	lastDownloaded := argStart - 1
+
+	logrus.I
