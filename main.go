@@ -80,4 +80,4 @@ func main() {
 	iterationN := argStartIter
 	lastDownloaded := argStart - 1
 
-	logrus.Infof("Will download %d from %d to %d \n", resultsLeft, argStart, ar
+	logrus.Infof("Will download %d from %d to %d \n", resultsLeft, argStart, argEnd)
