@@ -81,3 +81,5 @@ func main() {
 	lastDownloaded := argStart - 1
 
 	logrus.Infof("Will download %d from %d to %d \n", resultsLeft, argStart, argEnd)
+
+	fo
