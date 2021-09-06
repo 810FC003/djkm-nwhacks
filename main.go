@@ -82,4 +82,6 @@ func main() {
 
 	logrus.Infof("Will download %d from %d to %d \n", resultsLeft, argStart, argEnd)
 
-	for resultsLe
+	for resultsLeft > 0 {
+
+		lo
