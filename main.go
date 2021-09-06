@@ -84,4 +84,4 @@ func main() {
 
 	for resultsLeft > 0 {
 
-		lo
+		logrus.Infof
