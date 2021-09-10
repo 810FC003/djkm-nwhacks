@@ -84,4 +84,4 @@ func main() {
 
 	for resultsLeft > 0 {
 
-		logrus.Infof
+		logrus.Infof("Iteration %d,
