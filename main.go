@@ -84,4 +84,4 @@ func main() {
 
 	for resultsLeft > 0 {
 
-		logrus.Infof("Iteration %d, need to
+		logrus.Infof("Iteration %d, need to download %d", i
