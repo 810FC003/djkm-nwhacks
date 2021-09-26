@@ -86,4 +86,4 @@ func main() {
 
 		logrus.Infof("Iteration %d, need to download %d", iterationN, resultsLeft)
 
-		toDo
+		toDownload :=
