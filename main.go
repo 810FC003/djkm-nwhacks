@@ -87,4 +87,4 @@ func main() {
 		logrus.Infof("Iteration %d, need to download %d", iterationN, resultsLeft)
 
 		toDownload := 500
-		if resultsLeft
+		if resultsLeft < 
