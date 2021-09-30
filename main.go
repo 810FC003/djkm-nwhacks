@@ -90,4 +90,4 @@ func main() {
 		if resultsLeft < 500 {
 			toDownload = resultsLeft
 		}
-		f
+		firstTD :=
