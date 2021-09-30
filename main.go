@@ -88,4 +88,6 @@ func main() {
 
 		toDownload := 500
 		if resultsLeft < 500 {
-			toDownload = res
+			toDownload = resultsLeft
+		}
+		f
