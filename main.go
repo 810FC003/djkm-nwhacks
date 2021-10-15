@@ -91,4 +91,4 @@ func main() {
 			toDownload = resultsLeft
 		}
 		firstTD := lastDownloaded + 1
-		lastTD := las
+		lastTD := lastDownl
