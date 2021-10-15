@@ -90,4 +90,5 @@ func main() {
 		if resultsLeft < 500 {
 			toDownload = resultsLeft
 		}
-		firstTD := lastDownloa
+		firstTD := lastDownloaded + 1
+		lastTD 
