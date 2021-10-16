@@ -93,4 +93,4 @@ func main() {
 		firstTD := lastDownloaded + 1
 		lastTD := lastDownloaded + toDownload
 
-		
+		logrus.Info
