@@ -93,4 +93,4 @@ func main() {
 		firstTD := lastDownloaded + 1
 		lastTD := lastDownloaded + toDownload
 
-		logrus.Infof("Downloading %d from %d to
+		logrus.Infof("Downloading %d from %d to %d", toD
