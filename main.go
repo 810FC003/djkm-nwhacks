@@ -95,4 +95,4 @@ func main() {
 
 		logrus.Infof("Downloading %d from %d to %d", toDownload, firstTD, lastTD)
 
-		_, err = wd.FindElement(sel
+		_, err = wd.FindElement(selenium.ByX
