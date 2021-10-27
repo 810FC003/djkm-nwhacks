@@ -95,4 +95,5 @@ func main() {
 
 		logrus.Infof("Downloading %d from %d to %d", toDownload, firstTD, lastTD)
 
-		_, err = wd.FindElement(selenium.ByXPATH, `//*[@id="exportTypeName"
+		_, err = wd.FindElement(selenium.ByXPATH, `//*[@id="exportTypeName"]`)
+		if
