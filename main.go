@@ -97,4 +97,4 @@ func main() {
 
 		_, err = wd.FindElement(selenium.ByXPATH, `//*[@id="exportTypeName"]`)
 		if err == nil {
-			mustClickByXPATH(wd
+			mustClickByXPATH(wd, `//*[@
