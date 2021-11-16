@@ -99,4 +99,4 @@ func main() {
 		if err == nil {
 			mustClickByXPATH(wd, `//*[@id="exportTypeName"]`)
 		} else {
-			mustClickByXPATH(wd, `//*[@id="page"]/div[1]/div[26]/div
+			mustClickByXPATH(wd, `//*[@id="page"]/div[1]/div[26]/div[2]/div
