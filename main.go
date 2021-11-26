@@ -102,4 +102,4 @@ func main() {
 			mustClickByXPATH(wd, `//*[@id="page"]/div[1]/div[26]/div[2]/div/div/div/div[2]/div[3]/div[3]/div[2]/div[1]/button`)
 		}
 
-		time
+		time.Sleep(500 
