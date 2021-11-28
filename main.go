@@ -104,4 +104,4 @@ func main() {
 
 		time.Sleep(500 * time.Millisecond)
 
-		_, err
+		_, err = wd.Find
