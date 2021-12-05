@@ -104,4 +104,5 @@ func main() {
 
 		time.Sleep(500 * time.Millisecond)
 
-		_, err = wd.FindElement(selenium.ByXPATH, `/html/body/div[1]/div[26]/div[2]/div/div/div/div[2]/div[3]/div[3]/div[2]/div[1]/ul/li/span/ul/
+		_, err = wd.FindElement(selenium.ByXPATH, `/html/body/div[1]/div[26]/div[2]/div/div/div/div[2]/div[3]/div[3]/div[2]/div[1]/ul/li/span/ul/li[3]/a`)
+		if er
