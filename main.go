@@ -111,4 +111,4 @@ func main() {
 
 		time.Sleep(1 * time.Second)
 
-		mustClickByXPATH(wd, `//*[@id="number
+		mustClickByXPATH(wd, `//*[@id="numberOfRecord
