@@ -111,4 +111,5 @@ func main() {
 
 		time.Sleep(1 * time.Second)
 
-		mustClickByXPATH(wd, `//*[@id="numberOfRecord
+		mustClickByXPATH(wd, `//*[@id="numberOfRecordsRange"]`)
+		ti
