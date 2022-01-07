@@ -114,4 +114,4 @@ func main() {
 		mustClickByXPATH(wd, `//*[@id="numberOfRecordsRange"]`)
 		time.Sleep(30 * time.Millisecond)
 
-		setCntByXPATH(wd, `//*[@id="markFrom"]`, fmt.S
+		setCntByXPATH(wd, `//*[@id="markFrom"]`, fmt.Sprint
