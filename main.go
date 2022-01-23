@@ -115,4 +115,6 @@ func main() {
 		time.Sleep(30 * time.Millisecond)
 
 		setCntByXPATH(wd, `//*[@id="markFrom"]`, fmt.Sprintf("%d", firstTD))
-		time.Sleep(30 * time.Millisec
+		time.Sleep(30 * time.Millisecond)
+
+		setCntB
