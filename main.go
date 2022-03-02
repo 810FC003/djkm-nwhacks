@@ -120,4 +120,4 @@ func main() {
 		setCntByXPATH(wd, `//*[@id="markTo"]`, fmt.Sprintf("%d", lastTD))
 		time.Sleep(30 * time.Millisecond)
 
-		mustClickByXPATH(wd, `/htm
+		mustClickByXPATH(wd, `/html/bod
