@@ -120,4 +120,5 @@ func main() {
 		setCntByXPATH(wd, `//*[@id="markTo"]`, fmt.Sprintf("%d", lastTD))
 		time.Sleep(30 * time.Millisecond)
 
-		mustClickByXPATH(wd, `/html/body/div[11]/div[2]/form/div[2]/div[2]/div/span/span[1]/span/span[2]`
+		mustClickByXPATH(wd, `/html/body/div[11]/div[2]/form/div[2]/div[2]/div/span/span[1]/span/span[2]`)
+		time.Sle
