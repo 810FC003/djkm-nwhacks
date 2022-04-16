@@ -124,4 +124,4 @@ func main() {
 		time.Sleep(30 * time.Millisecond)
 		mustClickByXPATH(wd, `//*[@id="bib_fields:fullrec_fields_option"]`)
 		time.Sleep(30 * time.Millisecond)
-		mustClickByXPATH(wd, `/html/body/div[11]/d
+		mustClickByXPATH(wd, `/html/body/div[11]/div[2]/form/div[2
