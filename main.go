@@ -129,4 +129,4 @@ func main() {
 
 		mustClickByXPATH(wd, `/html/body/div[11]/div[2]/form/div[3]/div/div/div/span/span[1]/span/span[2]`)
 		time.Sleep(30 * time.Millisecond)
-		mustClickByXPATH(wd, `//*[@id
+		mustClickByXPATH(wd, `//*[@id="saveOptions"
