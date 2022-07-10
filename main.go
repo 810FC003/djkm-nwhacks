@@ -136,4 +136,4 @@ func main() {
 
 		mustClickByXPATH(wd, `//*[@id="exportButton"]`)
 
-		fname, err := waitF
+		fname, err := waitForDl(20 * 
