@@ -138,4 +138,5 @@ func main() {
 
 		fname, err := waitForDl(20 * time.Minute)
 		if err != nil {
-			logrus.Panic(
+			logrus.Panic(err)
+		}
