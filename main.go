@@ -141,4 +141,4 @@ func main() {
 			logrus.Panic(err)
 		}
 
-		err
+		err = portabl
