@@ -141,4 +141,4 @@ func main() {
 			logrus.Panic(err)
 		}
 
-		err = portableMoveFile(tempDir+"/"+fname, argDownloa
+		err = portableMoveFile(tempDir+"/"+fname, argDownloadDir+"/"+f
