@@ -143,4 +143,4 @@ func main() {
 
 		err = portableMoveFile(tempDir+"/"+fname, argDownloadDir+"/"+fmt.Sprintf("%s_%d", "WOS_EXP", iterationN)+"_"+fname)
 		if err != nil {
-			log
+			logrus.Panic(
