@@ -146,4 +146,4 @@ func main() {
 			logrus.Panic(err)
 		}
 
-		time
+		time.Sleep
