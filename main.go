@@ -147,4 +147,4 @@ func main() {
 		}
 
 		time.Sleep(700 * time.Millisecond)
-		mustC
+		mustClickByXPA
