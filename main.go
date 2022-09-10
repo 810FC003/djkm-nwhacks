@@ -149,4 +149,4 @@ func main() {
 		time.Sleep(700 * time.Millisecond)
 		mustClickByXPATH(wd, `//*[@id="page"]/div[11]/div[2]/form/div[2]/a`)
 
-		logrus.Infof("File saved to %s\n", 
+		logrus.Infof("File saved to %s\n", argDownloa
