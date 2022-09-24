@@ -152,4 +152,5 @@ func main() {
 		logrus.Infof("File saved to %s\n", argDownloadDir+"/"+fmt.Sprintf("%s_%d", "WOS_EXP", iterationN)+"_"+fname)
 
 		iterationN++
-		lastDownloaded = lastT
+		lastDownloaded = lastTD
+		re
