@@ -153,4 +153,4 @@ func main() {
 
 		iterationN++
 		lastDownloaded = lastTD
-		resultsLef
+		resultsLeft -= toD
