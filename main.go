@@ -158,4 +158,4 @@ func main() {
 
 }
 
-func portableMoveFile(sourcePath,
+func portableMoveFile(sourcePath, destPath str
