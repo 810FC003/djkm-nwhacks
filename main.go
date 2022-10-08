@@ -158,4 +158,4 @@ func main() {
 
 }
 
-func portableMoveFile(sourcePath, destPath str
+func portableMoveFile(sourcePath, destPath string) erro
