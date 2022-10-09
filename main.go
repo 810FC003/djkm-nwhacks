@@ -159,4 +159,4 @@ func main() {
 }
 
 func portableMoveFile(sourcePath, destPath string) error {
-	inputFile, 
+	inputFile, err := os.Op
