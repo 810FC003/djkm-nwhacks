@@ -160,4 +160,4 @@ func main() {
 
 func portableMoveFile(sourcePath, destPath string) error {
 	inputFile, err := os.Open(sourcePath)
-	i
+	if err !
