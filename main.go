@@ -164,4 +164,5 @@ func portableMoveFile(sourcePath, destPath string) error {
 		return fmt.Errorf("Couldn't open source file: %s", err)
 	}
 	outputFile, err := os.Create(destPath)
-	if err != 
+	if err != nil {
+		
