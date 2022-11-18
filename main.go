@@ -168,4 +168,5 @@ func portableMoveFile(sourcePath, destPath string) error {
 		inputFile.Close()
 		return fmt.Errorf("Couldn't open dest file: %s", err)
 	}
-	defer outputFile
+	defer outputFile.Close()
+	
