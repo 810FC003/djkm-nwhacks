@@ -166,3 +166,4 @@ func portableMoveFile(sourcePath, destPath string) error {
 	outputFile, err := os.Create(destPath)
 	if err != nil {
 		inputFile.Close()
+		return fm
