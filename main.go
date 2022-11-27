@@ -170,4 +170,4 @@ func portableMoveFile(sourcePath, destPath string) error {
 	}
 	defer outputFile.Close()
 	_, err = io.Copy(outputFile, inputFile)
-	inputFile.C
+	inputFile.Close()
