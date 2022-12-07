@@ -172,4 +172,5 @@ func portableMoveFile(sourcePath, destPath string) error {
 	_, err = io.Copy(outputFile, inputFile)
 	inputFile.Close()
 	if err != nil {
-		return fmt.Errorf("Writing to output file failed: %s
+		return fmt.Errorf("Writing to output file failed: %s", err)
+	}
