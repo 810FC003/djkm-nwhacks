@@ -174,3 +174,4 @@ func portableMoveFile(sourcePath, destPath string) error {
 	if err != nil {
 		return fmt.Errorf("Writing to output file failed: %s", err)
 	}
+	// The 
