@@ -175,4 +175,4 @@ func portableMoveFile(sourcePath, destPath string) error {
 		return fmt.Errorf("Writing to output file failed: %s", err)
 	}
 	// The copy was successful, so now delete the original file
-	err =
+	err = os.R
