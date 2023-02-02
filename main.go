@@ -176,3 +176,4 @@ func portableMoveFile(sourcePath, destPath string) error {
 	}
 	// The copy was successful, so now delete the original file
 	err = os.Remove(sourcePath)
+	if 
