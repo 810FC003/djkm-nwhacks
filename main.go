@@ -177,4 +177,5 @@ func portableMoveFile(sourcePath, destPath string) error {
 	// The copy was successful, so now delete the original file
 	err = os.Remove(sourcePath)
 	if err != nil {
-		return fmt.Errorf("Failed removing original file: 
+		return fmt.Errorf("Failed removing original file: %s", err)
+	
