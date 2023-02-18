@@ -178,4 +178,6 @@ func portableMoveFile(sourcePath, destPath string) error {
 	err = os.Remove(sourcePath)
 	if err != nil {
 		return fmt.Errorf("Failed removing original file: %s", err)
-	
+	}
+	return nil
+}
