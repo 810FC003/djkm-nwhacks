@@ -20,3 +20,8 @@ func waitForDl(timeout time.Duration) (string, error) {
 		}
 
 		for _, file := range fileList {
+			fname := file.Name()
+			if strings.HasSuffix(fname, "txt") {
+				time.Sleep(1500 * time.Millisecond)
+				return fname, nil
+			}
