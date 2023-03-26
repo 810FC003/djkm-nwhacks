@@ -33,3 +33,13 @@ func waitForDl(timeout time.Duration) (string, error) {
 		time.Sleep(1000 * time.Millisecond)
 	}
 }
+
+func waitForResults(wd selenium.WebDriver) {
+	wd.WaitWithTimeout(func(iwd selenium.WebDriver) (bool, error) {
+		modal, err := iwd.FindElement(selenium.ByXPATH, "//*[@id=\"w_loader\"]")
+		if err != nil {
+			return true, err
+		}
+		disp, err := modal.IsDisplayed()
+		return !disp, err
+	}, 300*time.Second)
