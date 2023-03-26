@@ -25,3 +25,11 @@ func waitForDl(timeout time.Duration) (string, error) {
 				time.Sleep(1500 * time.Millisecond)
 				return fname, nil
 			}
+			if time.Since(startTime) > timeout {
+				time.Sleep(1500 * time.Millisecond)
+				return "", errors.Errorf("Timeout exceeded")
+			}
+		}
+		time.Sleep(1000 * time.Millisecond)
+	}
+}
