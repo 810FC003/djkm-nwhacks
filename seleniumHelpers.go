@@ -43,3 +43,14 @@ func waitForResults(wd selenium.WebDriver) {
 		disp, err := modal.IsDisplayed()
 		return !disp, err
 	}, 300*time.Second)
+}
+
+func setCntByXPATH(wd selenium.WebDriver, elemXPATH, content string) error {
+	requestBox, err := wd.FindElement(selenium.ByXPATH, elemXPATH)
+	if err != nil {
+		return err
+	}
+
+	err = requestBox.Clear()
+	if err != nil {
+		return err
