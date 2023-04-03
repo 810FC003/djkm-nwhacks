@@ -54,3 +54,8 @@ func setCntByXPATH(wd selenium.WebDriver, elemXPATH, content string) error {
 	err = requestBox.Clear()
 	if err != nil {
 		return err
+	}
+
+	requestBox.SendKeys(content)
+	return nil
+}
