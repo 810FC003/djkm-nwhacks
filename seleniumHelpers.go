@@ -59,3 +59,11 @@ func setCntByXPATH(wd selenium.WebDriver, elemXPATH, content string) error {
 	requestBox.SendKeys(content)
 	return nil
 }
+
+func mustClickByXPATH(wd selenium.WebDriver, elemXPATH string) {
+	elem, err := wd.FindElement(selenium.ByXPATH, elemXPATH)
+	if err != nil {
+		logrus.Panic(err)
+	}
+	elem.Click()
+}
